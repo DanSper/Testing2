@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/fonts_build/roboto_regular.woff2) format("woff2"), url(../assets/fonts/fonts_build/roboto_regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+	font-family: Roboto;
+}
+
+@import "./blocks/menu.scss";
+@import "./blocks/footer.scss";
+@import "normalize.scss"; 
+
